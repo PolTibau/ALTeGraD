@@ -5,6 +5,15 @@ part of the Master MVA (Mathématiques, Vision, Apprentissage), 2026-2027.
 
 Author of the answers: **Pol Tibau Rubau**.
 
+## About the course
+
+ALTeGraD is an in-depth exploration of machine learning for text and graph-structured
+data. It covers graph representations of text, keyword extraction, modern
+Transformer-based language models, attention and sequence-to-sequence architectures,
+large language models (LLMs), generative AI for graphs and graph neural networks (GNNs),
+with applications such as biology and bioinformatics. The course alternates theory and
+practice through lab sessions, and ends with a data challenge on real-world datasets.
+
 ## Labs
 
 | Notebook | Topic | Main tools |
@@ -23,9 +32,4 @@ Lab 3 logs to Weights & Biases: set your own key before running it, for instance
 the `WANDB_API_KEY` environment variable or by replacing the `<YOUR_WANDB_API_KEY>`
 placeholder. Never commit a real key.
 
-## Rights
-
-The lab statements, starter code and pretrained models belong to the ALTeGraD teaching
-team. This repository only adds the completed code and the written answers, shared for
-reference. For this reason it carries no open-source license: reuse the course material
-only as allowed by its authors.
+The lab statements and starter code were provided by the ALTeGraD teaching team.
