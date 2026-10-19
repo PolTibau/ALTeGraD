@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+*.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Lab artifacts (downloaded data, checkpoints, logs) ---
+data/
+data.zip
+*.pt
+*.pth
+*.safetensors
+runs/
+wandb/
+lab2_adapter/
+merged_model/
+outputs/
+
+# --- Editors / OS ---
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Other ---
+*.log
